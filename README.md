@@ -9,7 +9,7 @@ I implemented one more Controlnet for DWpose, hoping the Stable Diffusion to lea
 
 ## Results
 
-![Enhanced Model Screenshot](results/results.png)
+![Enhanced Model Screenshot](results/result.png)
 
 
 
