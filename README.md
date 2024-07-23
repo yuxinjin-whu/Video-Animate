@@ -4,9 +4,12 @@ Build upon Magic Animate and DWPose and DensePose. I modified Magic Animate by a
 
 ## Methods
 
+I implemented one more Controlnet for DWpose, hoping the Stable Diffusion to learn the pose feature with facial and hand details.
 ![Enhanced Model Screenshot](results/model.png)
 
 ## Results
+
+![Enhanced Model Screenshot](results/results.png)
 
 
 
