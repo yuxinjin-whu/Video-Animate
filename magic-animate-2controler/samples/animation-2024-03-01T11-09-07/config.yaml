@@ -1,0 +1,34 @@
+pretrained_model_path: /home/jinyuxin13/magic-animate-main/pretrained_models/stable-diffusion-v1-5
+pretrained_vae_path: /home/jinyuxin13/magic-animate-main/pretrained_models/sd-vae-ft-mse
+pretrained_controlnet_path1: /home/jinyuxin13/magic-animate-main/pretrained_models/MagicAnimate/densepose_controlnet
+pretrained_controlnet_path2: /home/jinyuxin13/magic-animate-main/pretrained_models/MagicAnimate/control_v11p_sd15_openpose
+pretrained_appearance_encoder_path: /home/jinyuxin13/magic-animate-main/pretrained_models/MagicAnimate/appearance_encoder
+pretrained_unet_path: ''
+motion_module: /home/jinyuxin13/magic-animate-main/pretrained_models/MagicAnimate/temporal_attention/temporal_attention.ckpt
+savename: null
+fusion_blocks: midup
+seed:
+- 1
+steps: 25
+guidance_scale: 7.5
+source_image:
+- /home/jinyuxin13/datasets/00335.jpg
+video_path:
+- /home/jinyuxin13/datasets/00335_densepose.mp4
+video_path1:
+- /home/jinyuxin13/datasets/00335_dwpose.mp4
+inference_config: configs/inference/inference.yaml
+size: 640
+L: 16
+S: 1
+I: 0
+clip: 0
+offset: 0
+max_length: null
+video_type: condition
+invert_video: false
+save_individual_videos: false
+frame_interval: 1
+frame_maximum_count: 10
+random_seed:
+- 1
